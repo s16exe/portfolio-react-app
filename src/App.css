@@ -43,3 +43,9 @@
 
 
 @import "tailwindcss";
+
+@theme {
+  --breakpoint-xxs: 365px;
+  --breakpoint-2xl: 100rem;
+  --breakpoint-3xl: 120rem;
+}
