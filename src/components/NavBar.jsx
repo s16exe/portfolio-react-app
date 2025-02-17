@@ -9,7 +9,7 @@ const NavBar = () => {
   ];
 
   return (
-    <nav className="h-25 flex justify-between items-center text-[18px]">
+    <nav className="mt-[-20px] h-25 flex justify-between items-center text-[18px]">
       <div className="w-[300px] flex justify-between items-center">
         {navItems.map((item) => (
           <Link
