@@ -1,5 +1,6 @@
 import "../App.css";
 import Experience from "../components/Experience";
+import myImage from "../assets/linkedin-profile-photo.jpg";
 
 export default function Home() {
   const eruna = {
@@ -16,6 +17,11 @@ export default function Home() {
 
   return (
     <div>
+      <img
+        src={myImage}
+        alt="profile-photo"
+        className="rounded-full h-60 mb-10"
+      />
       <h1 className="h-12 text-3xl font-medium ">K S Subramanya Char</h1>
       <p className="my-3">
         Hello!! I'm a final year student at{" "}
